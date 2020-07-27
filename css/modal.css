@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --orange: rgb(248, 99, 45);
+    --gray: rgb(29, 36, 36);
+}
+
+.modal {
+    background-color: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.modalHeader {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    border: none;
+}
+
+.modalHeader hr {
+    background-color: var(--orange);
+    height: 5px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.modalHeader span, strong {
+    color: var(--orange);
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.modalHeader p {
+    margin-left: 1px;
+}
+
+.lateral {
+    position: absolute;
+    width: 150px;
+    height: 230vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(244,221,190,1) 0%, rgba(235,204,191,1) 24%, rgba(253,247,239,1) 69%, rgba(247,223,223,1) 99%);
+}
+
+.lateral img {
+    
+    position: absolute;
+    margin-top: 10px;
+}
+
+.lateral hr {
+    background-color: var(--orange);
+    height: 3px;
+    width: 50px; 
+    margin-top: 130px; 
+   
+}
+
+.lateral p {
+    position: absolute;
+    font-size: 3em;
+    color: var(--orange);
+    transform: rotate(270deg);
+    margin-top: 330px;   
+    width: 100%;      
+}
+
+
+nav ul {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 15vw;
+}
+
+
+nav ul li {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    width: 200pz;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+footer {
+    width: 390px;
+    position: absolute;
+    margin-top: 1650px;
+    display: flex;
+    margin-left: 150px;
+    flex-direction: column;
+    background-color: #bebdbd;
+    text-align: center;
+}
+
+footer a {
+    color: var(--gray);
+    
+}
+
+footer a:hover {
+    color:var(--orange);
+    text-decoration: none;
+}
+
+.close {
+    margin-right: 200px;
+    color: whitesmoke;
+}
+
+

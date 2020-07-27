@@ -1,0 +1,459 @@
+.container-tempo, .container-mercado, .container-higiene{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    width: 70%;
+    margin: auto;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+.kindle, .drone, .lego, .lego2, .mercearia,
+.higiene, .utilidades, .limpeza, .sustentavel,
+.perfumaria, .barba {
+    position: relative;
+    width: 200px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0.5px rgb(75, 74, 74);    
+}
+
+.kindle span  {
+    position: absolute;
+    margin-left: -128px;  
+    margin-top: 150px;     
+}
+
+.kindle h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 40px 0 10px 0;   
+
+}
+
+.kindle p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 15px;
+}
+
+.footer-kindle {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-kindle p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.drone span  {
+    position: absolute;
+    margin-left: -170px;  
+    margin-top: 140px;     
+}
+
+.drone h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 35px 0 10px 0;   
+
+}
+
+.drone p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-drone {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-drone p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.lego span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.lego h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 25px 0 15px 0;   
+
+}
+
+.lego p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-lego {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-lego p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.lego2 span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.lego2 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 30px 0 10px 0;   
+
+}
+
+.lego2 p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-lego2 {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-lego2 p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+/*CONTAINER MERCADO*/
+
+.container-mercado {
+    margin-top: 100px;
+}
+
+.mercearia span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.mercearia h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 35px 0 10px 0;   
+
+}
+
+.mercearia p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-mercearia {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-mercearia p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.higiene span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.higiene h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 40px 0 10px 0;   
+
+}
+
+.higiene p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-higiene {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-higiene p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.limpeza span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.limpeza h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 40px 0 10px 0;   
+
+}
+
+.limpeza p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-limpeza {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-limpeza p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.utilidades span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.utilidades h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 0px 0 10px 0;   
+
+}
+
+.utilidades p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-utilidades {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-utilidades p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.container-higiene {
+    margin-top: 100px;
+}
+
+.sustentavel span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.sustentavel h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 30px 0 10px 0;   
+
+}
+
+.sustentavel p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-sustentavel {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-sustentavel p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+
+.perfumaria span  {
+    position: absolute;
+    margin-left: -155px;  
+    margin-top: 160px;     
+}
+
+.perfumaria h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 25px 0 10px 0;   
+
+}
+
+.perfumaria p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-perfumaria {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-perfumaria p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+.barba span  {
+    position: absolute;
+    margin-left: -140px;  
+    margin-top: 150px;     
+}
+
+.barba h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--orange);
+    text-align: center;
+    margin: 30px 0 10px 0;   
+
+}
+
+.barba p {
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 10px;
+}
+
+.footer-barba {
+    background-color: var(--orange);
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-barba p {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+
+
+
+.container-tempo div:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.container-mercado div:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.container-higiene div:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
