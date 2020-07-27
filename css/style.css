@@ -18,7 +18,8 @@ header {
     display: flex;
     justify-content: center;
     width: 80%;
-    margin: 0 auto;    
+    margin: 0 auto;  
+    overflow-x: hidden;  
 }
 
 header img {
@@ -131,6 +132,7 @@ header ul li {
     font-weight: bolder;
     font-size: 2em;
     color: var(--orange);
+    overflow-x: hidden;
 }
 
 .vantagens strong {
@@ -142,7 +144,7 @@ header ul li {
 .lojas {
     display: flex;
     justify-content: space-evenly;
-    width: 85vh;
+    width: 85%;
     margin: 50px auto;       
 }
 
@@ -238,16 +240,13 @@ header ul li {
         font-size: 1.5em;
     }
 
-    header [src="img/logo_oi.png"] {
-      width: 80%;
-      height: 80%;
-    }
      
-    .lojas img{
-        width: -50%;
+    .lojas img, span{
+        max-width: 80%;
+        padding: 5px;
    }
 
-    header span img {
+       header span img {
         width: 70px;
     }
 
@@ -274,6 +273,10 @@ header ul li {
      .vantagens p {
          font-size: 1em;
      }
+
+     .lojas {
+         max-width: 50%;
+     }
 }
 
 @media (max-width: 450px) {
@@ -291,6 +294,8 @@ header ul li {
 
    
 }
+
+
 
 
 

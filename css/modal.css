@@ -19,7 +19,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 170px;
+    margin-left: 35%;
     border: none;
 }
 
@@ -42,15 +42,14 @@
 
 .lateral {
     position: absolute;
-    width: 150px;
-    height: 230vh;
+    width:25%;
+    height: 260vh;
     display: flex;
     justify-content: center;
     background: linear-gradient(180deg, rgba(244,221,190,1) 0%, rgba(235,204,191,1) 24%, rgba(253,247,239,1) 69%, rgba(247,223,223,1) 99%);
 }
 
 .lateral img {
-    
     position: absolute;
     margin-top: 10px;
 }
@@ -76,7 +75,7 @@
 nav ul {
     position: absolute;
     margin-top: 150px;
-    margin-left: 15vw;
+    margin-left: 40%;
 }
 
 
@@ -125,8 +124,26 @@ footer a:hover {
 }
 
 .close {
-    margin-right: 200px;
+    margin-right: 10%;
     color: whitesmoke;
 }
 
+
+@media(max-width: 750px) {
+     .close {
+         margin-right: 5%;
+         font-size: 1em;
+     }
+
+     .modalHeader span, strong {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width: 550px) {
+
+    .modalHeader span, strong {
+       font-size: 1em;
+   }
+}
 

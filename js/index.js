@@ -3,7 +3,7 @@ const modal = document.getElementsByClassName(".container")
 const close = document.querySelector(".sair")
 
 
-buttonMenu.addEventListener("click", (toggler) => {
+buttonMenu.addEventListener("click", () => {
     modal.classList.remove("hide")
 })
 
